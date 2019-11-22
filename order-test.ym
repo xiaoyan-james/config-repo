@@ -1,0 +1,19 @@
+server:
+  port: 8765
+
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/dbgirl?characterEncoding=utf8&useSSL=false
+  jpa:
+    show-sql: true
+    
+env: test!!!!
+label: master
+girl:
+  name: 晓燕
+  age:  18
