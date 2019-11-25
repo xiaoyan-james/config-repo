@@ -12,7 +12,7 @@ spring:
   jpa:
     show-sql: true
     
-env: this is-- test environment
+env: this is))qq test environment
 label: master
 girl:
   name: 法第三十webhook-测试一下
