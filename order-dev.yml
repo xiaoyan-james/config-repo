@@ -1,0 +1,24 @@
+server:
+  port: 8766
+
+spring:
+  application:
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/dbgirl?characterEncoding=utf8&useSSL=false
+  jpa:
+    show-sql: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    
+env: this-test-environment
+label: master
+girl:
+  name: 法第三十webhook-测试一下
+  age:  22
