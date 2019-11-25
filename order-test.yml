@@ -11,6 +11,11 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/dbgirl?characterEncoding=utf8&useSSL=false
   jpa:
     show-sql: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
     
 env: this-test-environment
 label: master
