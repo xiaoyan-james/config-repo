@@ -9,5 +9,5 @@ spring:
   rabbitmq:
     host: 192.168.150.237
     port: 5672
-    username: xiaoyan
-    password: 123456
+    username: guest
+    password: guest
