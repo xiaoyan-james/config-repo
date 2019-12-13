@@ -10,6 +10,11 @@ zuul:
 #   ignored-patterns:
 #      - /**/product/list
 
-management:
-  security:
-    enabled: false
+#      设置超时时间
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 4000
