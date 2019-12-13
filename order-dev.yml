@@ -21,3 +21,10 @@ label: master
 girl:
   name: 法第三十webhook-测试一下
   age:  22
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
