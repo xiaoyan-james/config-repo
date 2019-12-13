@@ -12,6 +12,6 @@ zuul:
 #      - /**/product/list
 
 #      设置超时时间
-ribbon：
+ribbon:
   ReadTimeout: 5000
   SocketTimeout : 5000
