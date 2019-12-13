@@ -1,4 +1,6 @@
 zuul:
+#  全部服务忽略敏感头，均可传递cookie
+  sensitive-headers:
   routes:
 # /myProduct/product/list -> /product/product/list
 #    myProduct:
