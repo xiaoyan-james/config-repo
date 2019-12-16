@@ -21,7 +21,7 @@ env: test-env
 label: master
 girl:
   name: order-test哈哈
-  age:  21
+  age:  25
 #   feign的超时时间配置
 feign:
   client:
