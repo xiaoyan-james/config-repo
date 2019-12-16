@@ -21,7 +21,7 @@ env: test-env
 label: master
 girl:
   name: xiaoyan哈哈
-  age:  25
+  age:  21
 #   feign的超时时间配置
 feign:
   client:
