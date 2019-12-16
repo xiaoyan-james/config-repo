@@ -20,8 +20,8 @@ spring:
 env: test-env
 label: master
 girl:
-  name: 法第三十webhook-测试一下
-  age:  22
+  name: xiaoyan哈哈
+  age:  25
 #   feign的超时时间配置
 feign:
   client:
