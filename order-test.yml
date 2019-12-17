@@ -20,8 +20,8 @@ spring:
 env: test-env
 label: master
 girl:
-  name: order-test
-  age:  18
+  name: config-bus:/actu
+  age:  12
 #   feign的超时时间配置
 feign:
   client:
