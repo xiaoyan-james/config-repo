@@ -20,7 +20,7 @@ spring:
 env: test-env
 label: master
 girl:
-  name: config-bus:/actu
+  name: http://localhost:8777/actuator/bus-refresh
   age:  12
 #   feign的超时时间配置
 feign:
